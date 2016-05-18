@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="en-US"><head>
+	<title>Kregistan: Time</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Craig Fox">
+	<link rel="shortcut icon" href="favicon.ico?">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script src="Time.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Time</h1>
+	</header>
+	<nav>
+		<a href="index.html" style="width:105px">General</a>
+		<br>
+		<a href="CurrentLaws.html" style="width:105px">Current Laws</a>
+		<br>
+		<a href="Positions.html" style="width:105px">Positions</a>
+		<br>
+		<a href="Districts.html" style="width:105px">District Statuses</a>
+		<br>
+		<a href="History.html" style="width:105px">History</a>
+		<br>
+		<a href="Time.html" style="width:105px">Time</a>
+		<br>
+	</nav>
+		<h4 id="displayTime"><h4>
+		Time:   <input type="text" name="Time" id="timeInput" value="Enter in Time"><br>
+		<button "add" type = "submit" value = "addd" name = "addition" id = "additio" onclick = addFunc();>Add</button>
+	<script id = "Time">
+		
+		function addFunc(){
+			Time.push(document.getElementById("timeInput").value)
+		}
+		document.getElementById("additio").onclick = addFunc;
+		document.getElementById("displayTime").innerHTML=Time;
+	</script> 
+	<footer>
+		<p>Check out this project on Github:</p>
+		<a href="https://github.com/CraigFox0/CraigFox0.github.io">here</a>
+	</footer>
+</body>
+</html>
