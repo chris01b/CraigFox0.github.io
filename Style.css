@@ -5,14 +5,11 @@ header {
     padding:5px;
 }
 nav {
-    line-height:30px;
     background-color:#eeeeee;
-    float:left;
-    padding:5px;
+	float:center;
 }
 section {
-    float:left;
-    padding:10px;
+    float:center;
 }
 footer {
     background-color:black;
@@ -25,7 +22,7 @@ a:link, a:visited {
     background-color: white;
     color: black;
     border: 2px solid green;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
