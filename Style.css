@@ -11,13 +11,6 @@ nav {
 section {
     float:center;
 }
-footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;
-}
 a:link, a:visited {
     background-color: white;
     color: black;
