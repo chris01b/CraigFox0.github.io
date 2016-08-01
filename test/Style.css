@@ -1,21 +1,21 @@
 .container-fluid {
-font-family: "Helvetica Neue, Helvetica, sans-serif";
-background-color: #006600;
-color: #ffffff;
-padding-top: 70px;
-padding-bottom: 70px;
+	font-family: "Helvetica Neue, Helvetica, sans-serif";
+	background-color: #006600;
+	color: #ffffff;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .row {
-padding-top: 20px;
-padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .bg-1 {
-background-image: url("images/Background.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-width: 100%;
-height: 400px;
-color: #015F9D;
+	background-image: url("images/Background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 400px;
+	color: #ED1846;
+	text-shadow: 2px 2px #015F9D;
 }
 .bg-2 {
 }
@@ -24,4 +24,36 @@ color: #015F9D;
 .bg-4 {
 }
 .bg-5 {
+	background-color: #000000;
+	border: 5px solid #666666;
+}
+a:link {
+    color: #ED1846;
+	background-color: #ffffff;
+	border: 5px solid #015F9D;
+	padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width: 100%;
+}
+a:visited {
+    color: #ED1846;
+	background-color: #ffffff;
+	border: 5px solid #015F9D;
+	padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width: 100%;
+}
+a:hover {
+    color: #015F9D;
+	background-color: #ffffff;
+	border: 5px solid #ED1846;
+	padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	width: 100%;
 }
