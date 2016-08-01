@@ -1,16 +1,19 @@
 .container-fluid {
 	font-family: "Helvetica Neue, Helvetica, sans-serif";
-	background-color: #006600;
 	color: #ffffff;
 	padding-top: 70px;
 	padding-bottom: 70px;
+	background-size: cover;
+	background-image: url("images/Background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 .row {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .bg-1 {
-	background-image: url("images/Background.jpg");
+	background-image: url("images/Top.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 400px;
@@ -19,15 +22,7 @@
 }
 .bg-2 {
 }
-.bg-3 {
-}
-.bg-4 {
-}
-.bg-5 {
-	background-color: #000000;
-	border: 5px solid #666666;
-}
-a:link {
+.bg-2 a:link, a:visited {
     color: #ED1846;
 	background-color: #ffffff;
 	border: 5px solid #015F9D;
@@ -37,17 +32,7 @@ a:link {
     display: inline-block;
 	width: 100%;
 }
-a:visited {
-    color: #ED1846;
-	background-color: #ffffff;
-	border: 5px solid #015F9D;
-	padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	width: 100%;
-}
-a:hover {
+.bg-2 a:hover {
     color: #015F9D;
 	background-color: #ffffff;
 	border: 5px solid #ED1846;
@@ -56,4 +41,21 @@ a:hover {
     text-decoration: none;
     display: inline-block;
 	width: 100%;
+}
+#links, #events {
+background-color: #888888;
+}
+#main {
+	background-color: #003300;
+	border: 5px solid #330000;
+}
+.bg-4 {
+}
+.bg-5 {
+	background-color: #000000;
+	border-top: 5px solid #666666;
+	border-bottom: 5px solid #666666;
+}
+a:link, a:visited {
+    color: #ED1846;
 }
