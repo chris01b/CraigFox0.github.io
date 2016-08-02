@@ -12,7 +12,7 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.bg-1 {
+.title {
 	background-image: url("images/Top.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -20,9 +20,9 @@
 	color: #ED1846;
 	text-shadow: 2px 2px #015F9D;
 }
-.bg-2 {
+.nav{
 }
-.bg-2 a:link, a:visited {
+.nav a:link, a:visited {
     color: #ED1846;
 	background-color: #ffffff;
 	border: 5px solid #015F9D;
@@ -32,7 +32,7 @@
     display: inline-block;
 	width: 100%;
 }
-.bg-2 a:hover {
+.nav a:hover {
     color: #015F9D;
 	background-color: #ffffff;
 	border: 5px solid #ED1846;
@@ -42,16 +42,18 @@
     display: inline-block;
 	width: 100%;
 }
-#links, #events {
-background-color: #888888;
+#news, #events, #Leadership, #Outdoors, #Friends, #Skills, #Service, #Responsibility {
+	background-color: #cccccc;
+	color: #330000;
+	border: 5px solid #ffffff;
 }
 #main {
 	background-color: #003300;
 	border: 5px solid #330000;
 }
-.bg-4 {
+.sub {
 }
-.bg-5 {
+.foot{
 	background-color: #000000;
 	border-top: 5px solid #666666;
 	border-bottom: 5px solid #666666;
