@@ -1,5 +1,6 @@
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:700|Roboto';
 .container-fluid {
-	font-family: "Helvetica Neue, Helvetica, sans-serif";
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	color: #ffffff;
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -15,17 +16,23 @@
 .title {
 	background-image: url("images/Top.jpg");
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center top;
+	background-size: cover;
 	height: 400px;
 	color: #ED1846;
-	text-shadow: 2px 2px #015F9D;
+	font-family: "Fira Sans", sans-serif;
 }
-.nav{
+.title img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
 }
-.nav a:link, a:visited {
-    color: #ED1846;
+.nav a:link, .nav a:visited {
+    color: #3d8f3d;
 	background-color: #ffffff;
-	border: 5px solid #015F9D;
+	border: 1px solid #b0bfc7;
+	border-radius: 290486px;
 	padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -33,25 +40,24 @@
 	width: 100%;
 }
 .nav a:hover {
-    color: #015F9D;
-	background-color: #ffffff;
-	border: 5px solid #ED1846;
+    color: #ffffff;
+	background-color: #3d8f3d;
+	border: 1px solid #b0bfc7;
+	border-radius: 290486px;
 	padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 	width: 100%;
 }
-#news, #events, #Leadership, #Outdoors, #Friends, #Skills, #Service, #Responsibility {
+.side, .reasons {
 	background-color: #cccccc;
 	color: #330000;
 	border: 5px solid #ffffff;
 }
-#main {
-	background-color: #003300;
-	border: 5px solid #330000;
-}
-.sub {
+.main {
+	background-color: #004d00;
+	border: 5px solid #996633;
 }
 .foot{
 	background-color: #000000;
